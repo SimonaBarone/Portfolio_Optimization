@@ -1,5 +1,4 @@
-# Porfolio-Optimization
-University project on Python.
+
 # Portfolio-Optimization
 This is a project for my University course of **Computer Science with Python**, provided by University of Turin, MSC in Quantitative Finance and Insurance.
 
