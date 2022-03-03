@@ -8,6 +8,6 @@ First I create an equally weighted portfolio and compute some statistics to show
 
 Then I simulate N portfolios to plot the opportunity set and compute the efficient frontier according to the **Markowitz mean-variance criterion**. 
 
-Then I compute the tangency portfolio by maximizing the Sharpe Ratio with respect to the portfolio weights. What I obtained is the optimal allocation of the ETF that maximize the Sharpe Ratio i.e. I'm maximizing the performance of the portfolio, choosing the more profitable per unit of risk.
+Then I compute the tangency portfolio by **maximizing the Sharpe Ratio** with respect to the portfolio weights. What I obtained is the optimal allocation of the ETFs that maximize the Sharpe Ratio i.e. I'm maximizing the performance of the portfolio, choosing the more profitable per unit of risk.
 
 At the end I computed the portfolio discrete allocation, i.e. the number of quotes of each ETFs should I earn at the current price.
