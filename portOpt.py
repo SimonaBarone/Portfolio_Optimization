@@ -12,8 +12,7 @@ from pypfopt.discrete_allocation import DiscreteAllocation, get_latest_prices
 
 class AMPT:
     def __init__(self, tickers, dates_backtesting, weights='equal'):
-        # insert dates like "20180101:20220303"
-        start_date, end_date = dates_backtesting.split(":")
+        start_date, end_date = dates_backtesting.split(":")  # insert dates like "20180101:20220303"
         start_date = pd.Timestamp(start_date).date()
 
         if end_date:
@@ -146,3 +145,5 @@ class AMPT:
         allocation, money_left = discrete_all.lp_portfolio()
         print('Optimal allocation:' + str(allocation))
         print('Funds left: ' + '€' + str(round(money_left, 3)))
+        
+        
