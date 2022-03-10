@@ -50,7 +50,6 @@ class AMPT:
         print('Annual variance: ' + percent_var)
 
 
-
     def monte_carlo(self):
         n = 5000
         self.weights = np.zeros((n, 10))
