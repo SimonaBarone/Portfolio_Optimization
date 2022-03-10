@@ -146,4 +146,4 @@ class AMPT:
         print('Optimal allocation:' + str(allocation))
         print('Funds left: ' + '€' + str(round(money_left, 3)))
         
-        
+       
